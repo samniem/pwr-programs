@@ -1,0 +1,25 @@
+{
+  "name": "pwr-programs",
+  "version": "1.0.0",
+  "description": "Playwithreality FitnessPprograms",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client/",
+    "server": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samniem/pwr-programs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samniem/pwr-programs/issues"
+  },
+  "homepage": "https://github.com/samniem/pwr-programs#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
